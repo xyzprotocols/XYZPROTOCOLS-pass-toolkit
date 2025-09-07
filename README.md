@@ -21,16 +21,7 @@ Built for **ethical hackers**, **security enthusiasts**, and **everyday users** 
 - **Dark Mode Hacker UI** → Clean, professional interface with animated transitions.
 - **Cross-Platform** → Works on Termux (Android), Windows, and Linux/Kali.
 
----
-
-## 📸 Screenshots
-> *Add screenshots here later!*
-> Example:
-> ```
-> ![Main Menu](screenshots/main_menu.png)
-> ```
-
----
+--
 
 ## 🚀 Installation
 
@@ -39,14 +30,17 @@ Termux allows you to run this toolkit directly on your phone.
 
 ```bash
 # Install required packages
+
 pkg update && pkg upgrade
 pkg install python git
 
 # Clone this repository
-git clone https://github.com/YOUR-USERNAME/xyz-password-toolkit.git
+
+git clone 
 cd xyz-password-toolkit
 
 # Install dependencies
+
 pip install -r requirements.txt
 
 # Run the tool
