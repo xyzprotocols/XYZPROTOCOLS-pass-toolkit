@@ -1,47 +1,53 @@
-# XYZ Password Toolkit 🔐  
+
+# XYZ Password Toolkit 🔐
 *A professional, hacker-style password management toolkit by [XYZ PROTOCOLS](https://xyzprotocols.blogspot.com)*
 
 ---
 
 ## 📜 Description
-The **XYZ Password Toolkit** is a cybersecurity-focused utility designed to help you:
-- **Check password strength** with clear feedback and tips.
-- **Generate secure, random passwords** using customizable character sets.
-- **Check if your password has been breached** using the [HaveIBeenPwned](https://haveibeenpwned.com/) database.
-- **Work in a cool hacker-themed terminal interface** with animations and dark mode aesthetics.
+The **XYZ Password Toolkit** is a cybersecurity utility designed to help you create and manage strong, secure passwords.  
+Built for **ethical hackers**, **cybersecurity learners**, and **everyday users** who value digital privacy.
 
-Built for **ethical hackers**, **security enthusiasts**, and **everyday users** who want to level up their password hygiene. 💻⚡
+With a hacker-themed terminal interface, this toolkit makes password security *fun and powerful*.
 
 ---
 
 ## ✨ Features
-- **Password Strength Analyzer** → Detailed scoring with improvement suggestions.
-- **Customizable Password Generator** → Uppercase, lowercase, numbers, symbols — you choose.
-- **Real-time Breach Check** → Verify if a password has been leaked in known data breaches.
-- **Dark Mode Hacker UI** → Clean, professional interface with animated transitions.
-- **Cross-Platform** → Works on Termux (Android), Windows, and Linux/Kali.
+- **Password Strength Analyzer** → Check how secure your password is with real-time feedback.
+- **Customizable Password Generator** → Create strong passwords using uppercase, lowercase, numbers, and symbols.
+- **Breach Check Integration** → Verify if a password has been leaked using the [HaveIBeenPwned](https://haveibeenpwned.com/) database.
+- **Dark Mode Hacker UI** → Clean, professional look for that ultimate terminal aesthetic.
+- **Cross-Platform Support** → Works on Android (via Termux), Windows, and Linux/Kali.
 
---
+---
 
 ## 🚀 Installation
 
 ### **1. Termux (Android)**
-Termux allows you to run this toolkit directly on your phone.
-
+Run this on your phone using Termux:
 ```bash
-# Install required packages
-
+# Update and install required packages
 pkg update && pkg upgrade
 pkg install python git
 
-# Clone this repository
-
-git clone 
-cd xyz-password-toolkit
+# Clone the repository
+git clone https://github.com/xyzprotocols/XYZPROTOCOLS.git
+cd XYZPROTOCOLS
 
 # Install dependencies
-
-pip install -r requirements.txt
+pip install colorama requests
 
 # Run the tool
-python xyz_password_toolkit.py
+python 'XYZPROTOCOLS PASS TOOLKIT.py'
+
+###**2.Windows**
+
+# Clone the repository
+git clone https://github.com/xyzprotocols/XYZPROTOCOLS.git
+cd XYZPROTOCOLS
+
+# Install dependencies
+pip install colorama requests
+
+# Run the tool
+python "XYZPROTOCOLS PASS TOOLKIT.py"
