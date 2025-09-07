@@ -30,3 +30,8 @@ The author is not responsible for any damage caused by improper use.
 
 
 ---
+
+⚙️ Requirements(must install)
+
+```bash
+pip install colorama requests
